@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  tasks:
+  - name: test telegram
+    telegram: token='bot292073017:AAFrez_fdbIve8I5Fzd3KYFMhAhG_5LAqrA' chat_id='309209998' msg={{ message }}
