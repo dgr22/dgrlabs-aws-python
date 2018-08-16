@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  tasks:
+  - name: test telegram
+    telegram: token='' chat_id='309209998' msg={{ message }}
